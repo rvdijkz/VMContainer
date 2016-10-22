@@ -2,7 +2,7 @@ FROM dordoka/rpi-java8
 
 MAINTAINER Robert van Dijk <rvdijkz@gmail.com>
 
-ADD VMContainer.jar.jar /data
+ADD VMContainer.jar /data
 
 WORKDIR /data
 
